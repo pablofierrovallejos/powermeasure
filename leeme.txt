@@ -1,0 +1,20 @@
+Configuracion de hora
+
+Para instalar servidor de relog NTP
+
+Validar que no esté instalado con:
+apt list -installed | grep ntp
+
+Si está instalado y no funcion se reinstala con:
+sudo apt-get install --reinstall ntp
+
+Si no esta instalado :
+sudo apt-get install ntp
+
+Para validar que arrancó bien:
+service ntp status
+
+Validar la hora finalmente con
+date
+
+
