@@ -1,0 +1,55 @@
+import seria
+import time
+from datetime import date
+
+today = date.today()
+filename_his ="/var/www/html/power" + today.strftime("%Y%m%d")+ ".dat"
+filename_his
+today_ant = today
+today_pos = today
+fenergiainihoy =0.0
+iesprimera_ejecucion = 1
+
+
+miarchivo_his = open(filename_his,"a")
+
+shtml = "<html> <head><meta http-equiv='refresh' content='5'/> </head> <body>"
+
+ser = serial.Serial('/dev/ttyACM0', 9600)
+while 1: 
+
+    today_pos = date.today()
+    if today_ant!= today_pos:
+        today_ant = today_pos
+	print("Es un nuevo dia")
+	miarchivo_his.close()
+        filename_his = "/var/www/html/power" + today_pos.strftime("%Y%m%d") + ".dat"
+        miarchivo_his = open(filename_his,"a")
+        print("Abre nuevo archivo: " + filename_his)
+
+    if(ser.in_waiting >0):
+        ahora = time.strftime("%c")
+
+        line = ser.readline()
+	miarchivo_his.write(ahora + ";" + line)
+        miarchivo_his.flush()
+
+        miarchivo     = open("/var/www/html/pow.html","w" )  #Archivo con el ultimo reg   
+        miarchivo.write(shtml + ahora + ";" + line + "</body></html>")  
+        miarchivo.flush()
+        miarchivo.close()
+
+
+        lindata=line.split(";")
+        print(lindata)
+               
+        if len(lindata)==7 :  #asegura que vengan 6 columnas de datos
+            fenergia_acumulada = float(lindata[3].replace(" kWh",""))
+            if iesprimera_ejecucion == 1:
+                 iesprimera_ejecucion == 0
+                 fenergiainihoy = fenergia_acumulada
+
+            tmptote = str(fenergia_acumulada - fenergiainihoy)
+            print("Energiagenerda hoy: " +  tmptote)
+            archivototalenergiahoy = open("/var/www/html/totenergiahoy.txt","w")
+            archivototalenergiahoy.write(tmptote)
