@@ -1,87 +1,3 @@
-sudo nano RaspDuino.py
-sudo python RaspDuino.py
-sudo nano RaspDuino.py
-sudo python RaspDuino.py
-ls -ltr
-sudo python RaspDuino.py
-ls
-sudo nano RaspDuino.py
-sudo python RaspDuino.py
-exit
-ls
-sudo python RaspDuino.py
-ls -ltr
-shutdown -r now
-sudo shutdown -r now
-ls -ltr
-sudo python RaspDuino.py
-ls
-sudo nano RaspDuino.py
-ls -ltr
-sudo python RaspDuino.py
-ls -ltr
-sudo nano RaspDuino.py
-sudo python RaspDuino.py
-sudo nano RaspDuino.py
-sudo python RaspDuino.py
-sudo nano RaspDuino.py
-sudo python RaspDuino.py
-sudo nano RaspDuino.py
-sudo python RaspDuino.py
-sudo nano RaspDuino.py
-sudo python RaspDuino.py
-sudo nano RaspDuino.py
-cd /var
-cd www
-cd html
-ls /ltr
-ls -lt
-cat power20210213.dat
-cd
-ls
-sudo python RaspDuino.py
-ls -ltr
-sudo nano RaspDuino.py
-sudo python RaspDuino.py
-sudo shutdown -r now
-ls -ltr
-sudo python RaspDuino.py
-..
-ls -ltr
-sudo python RaspDuino.py
-ls -ltr
-sudo nano RaspDuino.py
-sudo python RaspDuino.py
-ls
-sudo python RaspDuino.py
-ls -ltr
-sudo nano RaspDuino.py
-ls /lt
-ls -ltr
-sudo python RaspDuino.py
-cd /var/www/html
-ls -ltr
-tail -10f power20210214.dat
-date
-cd /home
-cd pi
-ls -ltr
-sudo python RaspDuino.py
-sudo shutdown -r now
-ls -ltr
-sudo python RaspDuino.py
-ls -ltr
-sudo python RaspDuino.py
-ls -ltr
-sudo python RaspDuino.py
-ls -ltr
-sudo python RaspDuino.py
-ls -ltr
-cd /var
-cd www
-ls
-cd html
-ls
 ls -ltr
 cat totenergiahoy.txt
 rm -f power20210801.dat
@@ -1998,3 +1914,87 @@ cat leeme.txt
 pwd
 ifconfig
 sudo shutdown -r now
+pwd
+ls -ltr
+date
+git
+git status
+ls -ltra
+git config --global user.name "pablofierrovallejos"
+git config --global user.email "pablofierrovallejos@hotmail.com"
+git init
+ls -ltr
+git add leeme.txt
+git status
+git commit -am "add leame.txt"
+git checkout master
+ls -ltr
+pwd
+cd ..
+ls -ltr
+mkdir bkp_pi
+ls -ltr
+whoami
+sudo mkdir bkp_pi
+ls -ltr
+cp pi bkp_pi
+ls -ltr
+cd bkp_pi
+ls
+cd ..
+cd pi
+ls -ltr
+ls -ltra
+pwd
+ls -ltr /home
+pwd
+cp * /home/pi/bkp_pi
+ls -ltr
+copy}
+copy
+pwd
+ls -ltr
+cd ..
+ls -ltr
+cd bkp_pi
+ls -ltr
+cp /home/pi/* .
+ls -ltr
+sudo cp /home/pi/* .
+ls -ltr
+cd ..
+cd pi
+ls -ltr
+cd LCD-show
+ls
+cd ..
+ls
+pwd
+ls -ltr
+pwd
+cd ..
+ls
+cd bkp_pi/
+ls
+ls -ltr
+cat dev
+cat dev1.txt
+date
+cd ..
+ls -ltr
+cd pi
+ls -ltr
+git push -u powermeasure master
+git push -u pablofierrovallejos/powermeasure master
+git remote add origin https://github.com/pablofierrovallejos/powermeasure.git
+git remote -v
+git push -u origin master
+git config -l
+git push -u origin master
+git remote -v
+git add --all
+git status
+ls -ltr
+git commit -am "primer full commit"
+git status
+git push -u origin master

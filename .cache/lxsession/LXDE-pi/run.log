@@ -1,203 +1,132 @@
-** Message: 22:59:02.161: environement.vala:58: Exporting primary_variable
-** Message: 22:59:02.161: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
-** Message: 22:59:02.161: environement.vala:150: confir_dirs is null, export : /etc/xdg
-** Message: 22:59:02.161: environement.vala:184: Exporting XDG_CONFIG_DIRS
-** Message: 22:59:02.162: environement.vala:218: custom_data :
-** Message: 22:59:02.162: environement.vala:219: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
-** Message: 22:59:02.162: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
-** Message: 22:59:02.162: environement.vala:225: Exporting XDG_DATA_DIRS
-** Message: 22:59:02.167: utils.vala:127: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-** Message: 22:59:02.167: utils.vala:148: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-** Message: 22:59:02.167: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 22:59:02.169: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
-** Message: 22:59:02.185: settings.vala:540: El archivo de claves no tiene la clave «iGtk/ColorScheme» en el grupo «GTK»
-** Message: 22:59:02.185: settings.vala:540: El archivo de claves no tiene la clave «windows_manager/command» en el grupo «Session»
-** Message: 22:59:02.185: settings.vala:540: El archivo de claves no tiene la clave «panel/command» en el grupo «Session»
-** Message: 22:59:02.185: settings.vala:540: El archivo de claves no tiene la clave «dock/command» en el grupo «Session»
-** Message: 22:59:02.185: settings.vala:540: El archivo de claves no tiene la clave «file_manager/command» en el grupo «Session»
-** Message: 22:59:02.185: settings.vala:540: El archivo de claves no tiene la clave «desktop_manager/command» en el grupo «Session»
-** Message: 22:59:02.186: settings.vala:540: El archivo de claves no tiene la clave «launcher_manager/autostart» en el grupo «Session»
-** Message: 22:59:02.186: settings.vala:540: El archivo de claves no tiene la clave «composite_manager/command» en el grupo «Session»
-** Message: 22:59:02.186: settings.vala:540: El archivo de claves no tiene la clave «im1/command» en el grupo «Session»
-** Message: 22:59:02.186: settings.vala:540: El archivo de claves no tiene la clave «im2/command» en el grupo «Session»
-** Message: 22:59:02.186: settings.vala:540: El archivo de claves no tiene la clave «widget1/command» en el grupo «Session»
-** Message: 22:59:02.186: settings.vala:540: El archivo de claves no tiene la clave «notification/command» en el grupo «Session»
-** Message: 22:59:02.186: settings.vala:540: El archivo de claves no tiene la clave «keybindings/command» en el grupo «Session»
-** Message: 22:59:02.186: settings.vala:540: El archivo de claves no tiene la clave «im_manager/command» en el grupo «Session»
-** Message: 22:59:02.187: settings.vala:540: El archivo de claves no tiene la clave «screensaver/command» en el grupo «Session»
-** Message: 22:59:02.187: settings.vala:540: El archivo de claves no tiene la clave «power_manager/command» en el grupo «Session»
-** Message: 22:59:02.187: settings.vala:540: El archivo de claves no tiene la clave «audio_manager/command» en el grupo «Session»
-** Message: 22:59:02.187: settings.vala:540: El archivo de claves no tiene la clave «workspace_manager/command» en el grupo «Session»
-** Message: 22:59:02.187: settings.vala:540: El archivo de claves no tiene la clave «screenshot_manager/command» en el grupo «Session»
-** Message: 22:59:02.187: settings.vala:540: El archivo de claves no tiene la clave «message_manager/command» en el grupo «Session»
-** Message: 22:59:02.188: settings.vala:540: El archivo de claves no tiene la clave «upgrade_manager/command» en el grupo «Session»
-** Message: 22:59:02.188: settings.vala:540: El archivo de claves no tiene la clave «updates_manager/command» en el grupo «Session»
-** Message: 22:59:02.188: settings.vala:540: El archivo de claves no tiene la clave «updates_manager/timeout» en el grupo «Session»
-** Message: 22:59:02.188: settings.vala:540: El archivo de claves no tiene la clave «crash_manager/command» en el grupo «Session»
-** Message: 22:59:02.188: settings.vala:540: El archivo de claves no tiene la clave «crash_manager/dev_mode» en el grupo «Session»
-** Message: 22:59:02.188: settings.vala:540: El archivo de claves no tiene la clave «crash_manager/timeout» en el grupo «Session»
-** Message: 22:59:02.189: settings.vala:540: El archivo de claves no tiene la clave «upstart_user_session» en el grupo «Session»
-** Message: 22:59:02.189: settings.vala:540: El archivo de claves no tiene la clave «proxy_manager/http» en el grupo «Session»
-** Message: 22:59:02.189: settings.vala:540: El archivo de claves no tiene la clave «a11y/command» en el grupo «Session»
-** Message: 22:59:02.189: settings.vala:540: El archivo de claves no tiene la clave «xrandr/command» en el grupo «Session»
-** Message: 22:59:02.189: settings.vala:540: El archivo de claves no tiene la clave «network_gui/command» en el grupo «Session»
-** Message: 22:59:02.189: settings.vala:540: El archivo de claves no tiene la clave «webbrowser/command» en el grupo «Session»
-** Message: 22:59:02.190: settings.vala:540: El archivo de claves no tiene la clave «email/command» en el grupo «Session»
-** Message: 22:59:02.190: settings.vala:540: El archivo de claves no tiene la clave «pdf_reader/command» en el grupo «Session»
-** Message: 22:59:02.190: settings.vala:540: El archivo de claves no tiene la clave «video_player/command» en el grupo «Session»
-** Message: 22:59:02.190: settings.vala:540: El archivo de claves no tiene la clave «audio_player/command» en el grupo «Session»
-** Message: 22:59:02.190: settings.vala:540: El archivo de claves no tiene la clave «images_display/command» en el grupo «Session»
-** Message: 22:59:02.190: settings.vala:540: El archivo de claves no tiene la clave «text_editor/command» en el grupo «Session»
-** Message: 22:59:02.190: settings.vala:540: El archivo de claves no tiene la clave «archive/command» en el grupo «Session»
-** Message: 22:59:02.190: settings.vala:540: El archivo de claves no tiene la clave «charmap/command» en el grupo «Session»
-** Message: 22:59:02.191: settings.vala:540: El archivo de claves no tiene la clave «calculator/command» en el grupo «Session»
-** Message: 22:59:02.191: settings.vala:540: El archivo de claves no tiene la clave «spreadsheet/command» en el grupo «Session»
-** Message: 22:59:02.191: settings.vala:540: El archivo de claves no tiene la clave «bittorent/command» en el grupo «Session»
-** Message: 22:59:02.191: settings.vala:540: El archivo de claves no tiene la clave «document/command» en el grupo «Session»
-** Message: 22:59:02.191: settings.vala:540: El archivo de claves no tiene la clave «webcam/command» en el grupo «Session»
-** Message: 22:59:02.191: settings.vala:540: El archivo de claves no tiene la clave «burn/command» en el grupo «Session»
-** Message: 22:59:02.191: settings.vala:540: El archivo de claves no tiene la clave «notes/command» en el grupo «Session»
-** Message: 22:59:02.192: settings.vala:540: El archivo de claves no tiene la clave «disk_utility/command» en el grupo «Session»
-** Message: 22:59:02.192: settings.vala:540: El archivo de claves no tiene la clave «tasks/command» en el grupo «Session»
-** Message: 22:59:02.192: settings.vala:540: El archivo de claves no tiene el grupo «Keymap»
-** Message: 22:59:02.192: settings.vala:540: El archivo de claves no tiene la clave «laptop_mode» en el grupo «State»
-** Message: 22:59:02.192: settings.vala:540: El archivo de claves no tiene la clave «gnome» en el grupo «Dbus»
-** Message: 22:59:02.192: settings.vala:540: El archivo de claves no tiene la clave «type» en el grupo «Environment»
-** Message: 22:59:02.193: settings.vala:540: El archivo de claves no tiene la clave «ubuntu_menuproxy» en el grupo «Environment»
-** Message: 22:59:02.193: settings.vala:540: El archivo de claves no tiene la clave «toolkit_integration» en el grupo «Environment»
-** Message: 22:59:02.193: settings.vala:540: El archivo de claves no tiene la clave «gtk/overlay_scrollbar_disable» en el grupo «Environment»
-** Message: 22:59:02.193: settings.vala:540: El archivo de claves no tiene la clave «qt/force_theme» en el grupo «Environment»
-** Message: 22:59:02.193: settings.vala:540: El archivo de claves no tiene la clave «qt/platform» en el grupo «Environment»
-** Message: 22:59:02.195: settings.vala:462: Monitoring: /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-** Message: 22:59:02.195: settings.vala:466: Desktop file is already in config home, do nothing
-** Message: 22:59:02.195: environement.vala:79: Exporting variable
-** Message: 22:59:02.195: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
-** Message: 22:59:02.196: environement.vala:177: custom_config :
-** Message: 22:59:02.196: environement.vala:178: config_dirs :/etc/xdg
-** Message: 22:59:02.196: environement.vala:179: confir_dirs not null, export : /etc/xdg
-** Message: 22:59:02.196: environement.vala:184: Exporting XDG_CONFIG_DIRS
-** Message: 22:59:02.196: environement.vala:218: custom_data :
-** Message: 22:59:02.196: environement.vala:219: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
-** Message: 22:59:02.196: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
-** Message: 22:59:02.196: environement.vala:225: Exporting XDG_DATA_DIRS
-** Message: 22:59:02.196: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 22:59:02.197: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
-** Message: 22:59:02.198: environement.vala:254: No entry in [Environment_variable]. El archivo de claves no tiene el grupo «Environment_variable»
-** Message: 22:59:02.210: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 22:59:02.210: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
-** Message: 22:59:02.210: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
-** Message: 22:59:02.211: options.vala:164: Activate xsettings_manager build-in
-** Message: 22:59:02.211: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 22:59:02.211: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 00:15:17.694: environement.vala:58: Exporting primary_variable
+** Message: 00:15:17.695: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 00:15:17.695: environement.vala:150: confir_dirs is null, export : /etc/xdg
+** Message: 00:15:17.695: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 00:15:17.695: environement.vala:218: custom_data :
+** Message: 00:15:17.695: environement.vala:219: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 00:15:17.695: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 00:15:17.695: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 00:15:17.732: utils.vala:127: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: 00:15:17.732: utils.vala:148: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: 00:15:17.732: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 00:15:17.739: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 00:15:17.756: settings.vala:540: El archivo de claves no tiene la clave «iGtk/ColorScheme» en el grupo «GTK»
+** Message: 00:15:17.756: settings.vala:540: El archivo de claves no tiene la clave «windows_manager/command» en el grupo «Session»
+** Message: 00:15:17.756: settings.vala:540: El archivo de claves no tiene la clave «panel/command» en el grupo «Session»
+** Message: 00:15:17.756: settings.vala:540: El archivo de claves no tiene la clave «dock/command» en el grupo «Session»
+** Message: 00:15:17.756: settings.vala:540: El archivo de claves no tiene la clave «file_manager/command» en el grupo «Session»
+** Message: 00:15:17.757: settings.vala:540: El archivo de claves no tiene la clave «desktop_manager/command» en el grupo «Session»
+** Message: 00:15:17.757: settings.vala:540: El archivo de claves no tiene la clave «launcher_manager/autostart» en el grupo «Session»
+** Message: 00:15:17.757: settings.vala:540: El archivo de claves no tiene la clave «composite_manager/command» en el grupo «Session»
+** Message: 00:15:17.757: settings.vala:540: El archivo de claves no tiene la clave «im1/command» en el grupo «Session»
+** Message: 00:15:17.757: settings.vala:540: El archivo de claves no tiene la clave «im2/command» en el grupo «Session»
+** Message: 00:15:17.757: settings.vala:540: El archivo de claves no tiene la clave «widget1/command» en el grupo «Session»
+** Message: 00:15:17.757: settings.vala:540: El archivo de claves no tiene la clave «notification/command» en el grupo «Session»
+** Message: 00:15:17.757: settings.vala:540: El archivo de claves no tiene la clave «keybindings/command» en el grupo «Session»
+** Message: 00:15:17.758: settings.vala:540: El archivo de claves no tiene la clave «im_manager/command» en el grupo «Session»
+** Message: 00:15:17.758: settings.vala:540: El archivo de claves no tiene la clave «screensaver/command» en el grupo «Session»
+** Message: 00:15:17.758: settings.vala:540: El archivo de claves no tiene la clave «power_manager/command» en el grupo «Session»
+** Message: 00:15:17.758: settings.vala:540: El archivo de claves no tiene la clave «audio_manager/command» en el grupo «Session»
+** Message: 00:15:17.758: settings.vala:540: El archivo de claves no tiene la clave «workspace_manager/command» en el grupo «Session»
+** Message: 00:15:17.758: settings.vala:540: El archivo de claves no tiene la clave «screenshot_manager/command» en el grupo «Session»
+** Message: 00:15:17.759: settings.vala:540: El archivo de claves no tiene la clave «message_manager/command» en el grupo «Session»
+** Message: 00:15:17.759: settings.vala:540: El archivo de claves no tiene la clave «upgrade_manager/command» en el grupo «Session»
+** Message: 00:15:17.759: settings.vala:540: El archivo de claves no tiene la clave «updates_manager/command» en el grupo «Session»
+** Message: 00:15:17.759: settings.vala:540: El archivo de claves no tiene la clave «updates_manager/timeout» en el grupo «Session»
+** Message: 00:15:17.759: settings.vala:540: El archivo de claves no tiene la clave «crash_manager/command» en el grupo «Session»
+** Message: 00:15:17.759: settings.vala:540: El archivo de claves no tiene la clave «crash_manager/dev_mode» en el grupo «Session»
+** Message: 00:15:17.759: settings.vala:540: El archivo de claves no tiene la clave «crash_manager/timeout» en el grupo «Session»
+** Message: 00:15:17.760: settings.vala:540: El archivo de claves no tiene la clave «upstart_user_session» en el grupo «Session»
+** Message: 00:15:17.760: settings.vala:540: El archivo de claves no tiene la clave «proxy_manager/http» en el grupo «Session»
+** Message: 00:15:17.760: settings.vala:540: El archivo de claves no tiene la clave «a11y/command» en el grupo «Session»
+** Message: 00:15:17.760: settings.vala:540: El archivo de claves no tiene la clave «xrandr/command» en el grupo «Session»
+** Message: 00:15:17.760: settings.vala:540: El archivo de claves no tiene la clave «network_gui/command» en el grupo «Session»
+** Message: 00:15:17.760: settings.vala:540: El archivo de claves no tiene la clave «webbrowser/command» en el grupo «Session»
+** Message: 00:15:17.761: settings.vala:540: El archivo de claves no tiene la clave «email/command» en el grupo «Session»
+** Message: 00:15:17.761: settings.vala:540: El archivo de claves no tiene la clave «pdf_reader/command» en el grupo «Session»
+** Message: 00:15:17.761: settings.vala:540: El archivo de claves no tiene la clave «video_player/command» en el grupo «Session»
+** Message: 00:15:17.761: settings.vala:540: El archivo de claves no tiene la clave «audio_player/command» en el grupo «Session»
+** Message: 00:15:17.761: settings.vala:540: El archivo de claves no tiene la clave «images_display/command» en el grupo «Session»
+** Message: 00:15:17.761: settings.vala:540: El archivo de claves no tiene la clave «text_editor/command» en el grupo «Session»
+** Message: 00:15:17.762: settings.vala:540: El archivo de claves no tiene la clave «archive/command» en el grupo «Session»
+** Message: 00:15:17.762: settings.vala:540: El archivo de claves no tiene la clave «charmap/command» en el grupo «Session»
+** Message: 00:15:17.762: settings.vala:540: El archivo de claves no tiene la clave «calculator/command» en el grupo «Session»
+** Message: 00:15:17.762: settings.vala:540: El archivo de claves no tiene la clave «spreadsheet/command» en el grupo «Session»
+** Message: 00:15:17.762: settings.vala:540: El archivo de claves no tiene la clave «bittorent/command» en el grupo «Session»
+** Message: 00:15:17.762: settings.vala:540: El archivo de claves no tiene la clave «document/command» en el grupo «Session»
+** Message: 00:15:17.762: settings.vala:540: El archivo de claves no tiene la clave «webcam/command» en el grupo «Session»
+** Message: 00:15:17.762: settings.vala:540: El archivo de claves no tiene la clave «burn/command» en el grupo «Session»
+** Message: 00:15:17.763: settings.vala:540: El archivo de claves no tiene la clave «notes/command» en el grupo «Session»
+** Message: 00:15:17.763: settings.vala:540: El archivo de claves no tiene la clave «disk_utility/command» en el grupo «Session»
+** Message: 00:15:17.763: settings.vala:540: El archivo de claves no tiene la clave «tasks/command» en el grupo «Session»
+** Message: 00:15:17.763: settings.vala:540: El archivo de claves no tiene el grupo «Keymap»
+** Message: 00:15:17.763: settings.vala:540: El archivo de claves no tiene la clave «laptop_mode» en el grupo «State»
+** Message: 00:15:17.763: settings.vala:540: El archivo de claves no tiene la clave «gnome» en el grupo «Dbus»
+** Message: 00:15:17.763: settings.vala:540: El archivo de claves no tiene la clave «type» en el grupo «Environment»
+** Message: 00:15:17.764: settings.vala:540: El archivo de claves no tiene la clave «ubuntu_menuproxy» en el grupo «Environment»
+** Message: 00:15:17.764: settings.vala:540: El archivo de claves no tiene la clave «toolkit_integration» en el grupo «Environment»
+** Message: 00:15:17.764: settings.vala:540: El archivo de claves no tiene la clave «gtk/overlay_scrollbar_disable» en el grupo «Environment»
+** Message: 00:15:17.764: settings.vala:540: El archivo de claves no tiene la clave «qt/force_theme» en el grupo «Environment»
+** Message: 00:15:17.764: settings.vala:540: El archivo de claves no tiene la clave «qt/platform» en el grupo «Environment»
+** Message: 00:15:17.766: settings.vala:462: Monitoring: /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: 00:15:17.766: settings.vala:466: Desktop file is already in config home, do nothing
+** Message: 00:15:17.766: environement.vala:79: Exporting variable
+** Message: 00:15:17.766: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 00:15:17.766: environement.vala:177: custom_config :
+** Message: 00:15:17.766: environement.vala:178: config_dirs :/etc/xdg
+** Message: 00:15:17.767: environement.vala:179: confir_dirs not null, export : /etc/xdg
+** Message: 00:15:17.767: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 00:15:17.767: environement.vala:218: custom_data :
+** Message: 00:15:17.767: environement.vala:219: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 00:15:17.767: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 00:15:17.767: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 00:15:17.767: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 00:15:17.767: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 00:15:17.768: environement.vala:254: No entry in [Environment_variable]. El archivo de claves no tiene el grupo «Environment_variable»
+** Message: 00:15:17.777: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 00:15:17.777: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: 00:15:17.778: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: 00:15:17.778: options.vala:164: Activate xsettings_manager build-in
+** Message: 00:15:17.778: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 00:15:17.778: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
 xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
 xprop:  no such property "_NET_DESKTOP_NAMES"
-** Message: 22:59:02.276: app.vala:721: polkit separate
-** Message: 22:59:02.276: app.vala:721: polkit separate
-** Message: 22:59:02.289: app.vala:76: Launching lxpolkit 
-** Message: 22:59:02.289: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
-** Message: 22:59:02.289: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/autostart
-** Message: 22:59:02.290: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/autostart
-** Message: 22:59:02.290: autostart.vala:42: Autostart path : /etc/xdg/lxsession/LXDE-pi/autostart
-** Message: 22:59:02.317: app.vala:76: Launching lxpanel 
-** Message: 22:59:02.342: app.vala:76: Launching pcmanfm 
+** Message: 00:15:17.815: app.vala:721: polkit separate
+** Message: 00:15:17.815: app.vala:721: polkit separate
+** Message: 00:15:17.827: app.vala:76: Launching lxpolkit 
+** Message: 00:15:17.827: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 00:15:17.828: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 00:15:17.828: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 00:15:17.828: autostart.vala:42: Autostart path : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 00:15:17.879: app.vala:76: Launching lxpanel 
+** Message: 00:15:17.903: app.vala:76: Launching pcmanfm 
 
-** (lxsession:703): WARNING **: 22:59:02.378: app.vala:86: Falló al ejecutar el proceso hijo «xscreensaver» (No existe el fichero o el directorio)
+** (lxsession:703): WARNING **: 00:15:17.931: app.vala:86: Falló al ejecutar el proceso hijo «xscreensaver» (No existe el fichero o el directorio)
 
-** (lxsession:703): WARNING **: 22:59:02.378: app.vala:87: Error when launching xscreensaver
-** Message: 22:59:02.399: options.vala:107: Create build-in Clipboard
-** Message: 22:59:02.406: main.vala:441: Check keymap_mode (null)
-** Message: 22:59:02.427: app.vala:76: Launching /usr/bin/ssh-agent 
-SSH_AUTH_SOCK=/tmp/ssh-4gMZRV4c81pZ/agent.787; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=791; export SSH_AGENT_PID;
-echo Agent pid 791;
-** Message: 22:59:02.985: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+** (lxsession:703): WARNING **: 00:15:17.931: app.vala:87: Error when launching xscreensaver
+** Message: 00:15:17.943: options.vala:107: Create build-in Clipboard
+** Message: 00:15:17.951: main.vala:441: Check keymap_mode (null)
+** Message: 00:15:17.962: app.vala:76: Launching /usr/bin/ssh-agent 
+SSH_AUTH_SOCK=/tmp/ssh-Vs3DznBUsaOY/agent.786; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=790; export SSH_AGENT_PID;
+echo Agent pid 790;
+** Message: 00:15:18.441: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
 Openbox-Message: No es posible encontrar un archivo de menú "/usr/share/lxde/openbox/menu.xml" válido
-** Message: 22:59:07.877: Connecting ...
-** Message: 22:59:07.879: Status changed to down
+** Message: 00:15:23.131: Connecting ...
+** Message: 00:15:23.132: Status changed to down
 xrandr: Failed to get size of gamma for output default
 Unit pt-device-manager.service could not be found.
 
-** (lxpanel:780): WARNING **: 22:59:08.403: Battery 0 not found
-** Message: 22:59:08.912: Status changed to opened
-** Message: 22:59:08.914: Connected to dhcpcd-8.1.2
-** Message: 22:59:08.921: Status changed to connected
-** Message: 22:59:08.921: eth0: Link is down
-** Message: 22:59:08.921: wlan0: Associated with Pablo fierro
-** Message: 22:59:08.921: wlan0: Configured 192.168.18.42/24
-** Message: 22:59:08.927: wlan0: WPA status connected
-** Message: 22:59:08.928: wlan0: Received scan results
+** (lxpanel:780): WARNING **: 00:15:23.634: Battery 0 not found
+** Message: 00:15:24.427: Status changed to opened
+** Message: 00:15:24.427: Connected to dhcpcd-8.1.2
+** Message: 00:15:24.438: Status changed to connected
+** Message: 00:15:24.439: eth0: Link is down
+** Message: 00:15:24.440: wlan0: Associated with Pablo fierro
+** Message: 00:15:24.441: wlan0: Configured 192.168.18.42/24
+** Message: 00:15:24.460: wlan0: WPA status connected
+** Message: 00:15:24.461: wlan0: Received scan results
 
-(lxpanel:780): Gtk-CRITICAL **: 22:59:09.480: IA__gtk_image_set_from_pixbuf: assertion 'GTK_IS_IMAGE (image)' failed
-** Message: 23:00:08.752: wlan0: Received scan results
-** Message: 23:01:21.508: wlan0: Received scan results
-** Message: 23:02:21.518: wlan0: Received scan results
-** Message: 23:03:21.516: wlan0: Received scan results
-** Message: 23:04:21.511: wlan0: Received scan results
-** Message: 23:05:21.513: wlan0: Received scan results
-** Message: 23:06:21.524: wlan0: Received scan results
-** Message: 23:07:21.538: wlan0: Received scan results
-** Message: 23:08:21.514: wlan0: Received scan results
-** Message: 23:09:21.542: wlan0: Received scan results
-** Message: 23:10:21.529: wlan0: Received scan results
-** Message: 23:11:21.524: wlan0: Received scan results
-** Message: 23:12:21.544: wlan0: Received scan results
-** Message: 23:13:21.527: wlan0: Received scan results
-** Message: 23:14:21.523: wlan0: Received scan results
-** Message: 23:15:21.521: wlan0: Received scan results
-** Message: 23:16:21.528: wlan0: Received scan results
-** Message: 23:17:21.529: wlan0: Received scan results
-** Message: 23:18:21.527: wlan0: Received scan results
-** Message: 23:19:21.521: wlan0: Received scan results
-** Message: 23:20:21.545: wlan0: Received scan results
-** Message: 23:21:21.537: wlan0: Received scan results
-** Message: 23:22:21.544: wlan0: Received scan results
-** Message: 23:23:21.526: wlan0: Received scan results
-** Message: 23:24:21.538: wlan0: Received scan results
-** Message: 23:25:21.532: wlan0: Received scan results
-** Message: 23:26:21.529: wlan0: Received scan results
-** Message: 23:27:21.534: wlan0: Received scan results
-** Message: 23:28:21.556: wlan0: Received scan results
-** Message: 23:29:21.539: wlan0: Received scan results
-** Message: 23:30:21.534: wlan0: Received scan results
-** Message: 23:31:21.548: wlan0: Received scan results
-** Message: 23:32:21.597: wlan0: Received scan results
-** Message: 23:33:21.540: wlan0: Received scan results
-** Message: 23:34:21.547: wlan0: Received scan results
-** Message: 23:35:21.548: wlan0: Received scan results
-** Message: 23:36:21.546: wlan0: Received scan results
-** Message: 23:37:21.541: wlan0: Received scan results
-** Message: 23:38:21.550: wlan0: Received scan results
-** Message: 23:39:21.553: wlan0: Received scan results
-** Message: 23:40:21.545: wlan0: Received scan results
-** Message: 23:41:21.547: wlan0: Received scan results
-** Message: 23:42:21.556: wlan0: Received scan results
-** Message: 23:43:21.552: wlan0: Received scan results
-** Message: 23:44:21.556: wlan0: Received scan results
-** Message: 23:45:21.552: wlan0: Received scan results
-** Message: 23:46:21.551: wlan0: Received scan results
-** Message: 23:47:21.553: wlan0: Received scan results
-** Message: 23:48:21.552: wlan0: Received scan results
-** Message: 23:49:21.551: wlan0: Received scan results
-** Message: 23:50:21.552: wlan0: Received scan results
-** Message: 23:51:21.557: wlan0: Received scan results
-** Message: 23:52:21.580: wlan0: Received scan results
-** Message: 23:53:21.572: wlan0: Received scan results
-** Message: 23:54:21.557: wlan0: Received scan results
-** Message: 23:55:21.577: wlan0: Received scan results
-** Message: 23:56:21.555: wlan0: Received scan results
-** Message: 23:57:21.576: wlan0: Received scan results
-** Message: 23:58:21.567: wlan0: Received scan results
-** Message: 23:59:21.555: wlan0: Received scan results
-** Message: 00:00:21.568: wlan0: Received scan results
-** Message: 00:01:21.565: wlan0: Received scan results
-** Message: 00:02:21.572: wlan0: Received scan results
-** Message: 00:03:21.587: wlan0: Received scan results
-** Message: 00:04:21.579: wlan0: Received scan results
-** Message: 00:05:21.567: wlan0: Received scan results
-** Message: 00:06:21.587: wlan0: Received scan results
-** Message: 00:07:21.577: wlan0: Received scan results
-** Message: 00:08:21.572: wlan0: Received scan results
-** Message: 00:09:21.577: wlan0: Received scan results
-** Message: 00:10:21.573: wlan0: Received scan results
-** Message: 00:11:21.583: wlan0: Received scan results
-** Message: 00:12:21.576: wlan0: Received scan results
+(lxpanel:780): Gtk-CRITICAL **: 00:15:25.033: IA__gtk_image_set_from_pixbuf: assertion 'GTK_IS_IMAGE (image)' failed
+** Message: 00:16:37.696: wlan0: Received scan results
+** Message: 00:17:37.697: wlan0: Received scan results
